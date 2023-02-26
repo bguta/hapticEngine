@@ -101,7 +101,7 @@ void loop() {
 
   // send the sample to the bluetooth client
   // each float is 4 bytes and we have 12 floats to send (2 chips x 6 values per chip), hence a total of 48 bytes
-  // we send this as a char array, where each char is 2 bytes.
+  // we send this as a char array, where each char is 1 byte.
   for (int i = 0; i < 2; i++) {
     float_2_bytes.floats[0 + 6 * i] = acc[i].acceleration.x;
     float_2_bytes.floats[1 + 6 * i] = acc[i].acceleration.y;
