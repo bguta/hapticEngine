@@ -116,7 +116,7 @@ void loop() {
   RFduinoBLE.send(float_2_bytes.chars, 5 * sizeof(float));                       // send 20 bytes
   RFduinoBLE.send(&float_2_bytes.chars[5 * sizeof(float)], 5 * sizeof(float));   // send the next 20
   RFduinoBLE.send(&float_2_bytes.chars[10 * sizeof(float)], 2 * sizeof(float));  // send the last 8
-  RFduino_ULPDelay(100); // delay 100ms before next send
+  RFduino_ULPDelay(100);                                                         // delay 100ms before next send
 }
 
 
