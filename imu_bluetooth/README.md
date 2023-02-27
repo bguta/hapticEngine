@@ -14,7 +14,6 @@ The RFDuino has all the functionalities of an Arduino while also containing an i
 
 * Open Arduino
   * Edit Preferences (in settings), and add ```https://gist.githubusercontent.com/Alkarex/6b9a7f2e311805b6e238419e145b6c67/raw/0fa858b8c60b9cdddcce2d5c501eca3f866ed62b/package_rfduino166_index.json``` to Additional Board Manager URLs and save.
-      ![preferences](preferences.png)
   * Open the Boards Manager under ```Tools->Board``` menu.
   * Select the RFduino package at the end of the list, and click Install to install it.
   * Your new board will now show up in the ```Tools->Board``` menu.
@@ -58,7 +57,7 @@ Make sure the 2 IMUs are connected in the configuration shown below:
 
 * Open ```imu_bluetooth.ino``` using Arduino
 
-* Install ```basicMPU6050``` from the ```Tools->Manage Libraries`` menu (need this for IMU support)
+* Install ```basicMPU6050``` from the ```Tools->Manage Libraries``` menu (need this for IMU support)
 
 * Select RFduino from the ```Tools->Board``` menu
 

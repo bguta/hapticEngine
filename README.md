@@ -1,6 +1,3 @@
 ### HapticEngine
 
 This is some example code to communicate with the haptic engine. The haptic engine uses the audio channels to send vibrotactile stimulation to a person. This code uses python to generate and send this information so that it is displayed on the engine. To get started please install [Python](https://realpython.com/installing-python/). Once installed, ensure you have [pip](https://pip.pypa.io/en/stable/installation/) installed (using the commandline or terminal), then open up the command line (or terminal) within this directory and run ```pip install -r requirements.txt``` to install the required packages for this project. After that, simply run ```python example.py``` to generate the example audio. You can also immediately run ```python main.py``` to start sending audio data through the default audio output; every time the space bar is pressed it will send audio data. Please read through the code to figure out how to adjust the timing and/or frequency of the signal. To connect to the HapticEngine, change the audio output to the engine instead of the default speakers.
-
-## IMU + RFduino
-Documentation is being built ...
